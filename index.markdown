@@ -93,9 +93,9 @@ proxy + more</a><object style="margin:0px" width="425" height="355">
 <div style="font-size:11px;font-family:tahoma,arial;height:26px;padding-top:2px;">View more <a style="text-decoration:underline;" href="http://www.slideshare.net/">documents</a> from <a style="text-decoration:underline;" href="http://www.slideshare.net/northscale">NorthScale</a>.</div>
 </div>
 
-<a name="downloads"/>
-
 ### Downloads and Obtaining the Source
+
+<a name="downloads">&nbsp;</a>
 
 You can obtain the latest release as a tar.gz file from <a
 href="http://labs.northscale.com/moxi/moxi-0.10.0.tar.gz">http://labs.northscale.com/moxi/moxi-0.10.0.tar.gz</a>
