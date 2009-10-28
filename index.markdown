@@ -12,12 +12,11 @@ requiring any changes to the application software using memcached.
 
 See [this summary][summarypdf] for a quick, highlevel overview.
 
-### Obtaining
+### Latest Information
 
 Version 0.10.0 is the latest release of moxi, and it became available
-on the 16th of October, 2009.  We plan for packages of this release in
-both .deb and .rpm to be available soon.  Right now, the release is
-available via github as listed below.  See the [changelog][changelog]
+on the 16th of October, 2009.  Source is available as listed in 
+the <a href="#downloads">downloads below</a>.  See the [changelog][changelog]
 for some clues on what has changed.
 
 ### The basics
@@ -94,11 +93,17 @@ proxy + more</a><object style="margin:0px" width="425" height="355">
 <div style="font-size:11px;font-family:tahoma,arial;height:26px;padding-top:2px;">View more <a style="text-decoration:underline;" href="http://www.slideshare.net/">documents</a> from <a style="text-decoration:underline;" href="http://www.slideshare.net/northscale">NorthScale</a>.</div>
 </div>
 
-### Obtaining the Source
+<a name="downloads"/>
 
-You can obtain the latest release as a tar.gz file from <a href="http://labs.northscale.com/moxi/moxi-0.10.0.tar.gz">http://labs.northscale.com/moxi/moxi-0.10.0.tar.gz</a>
+### Downloads and Obtaining the Source
 
-Or for the latest source, you can clone the project with [git][git] 
+You can obtain the latest release as a tar.gz file from <a
+href="http://labs.northscale.com/moxi/moxi-0.10.0.tar.gz">http://labs.northscale.com/moxi/moxi-0.10.0.tar.gz</a>
+
+If you're just casually building moxi for your own use, the recommended
+path is to use the .tar.gz distribution.
+
+For the latest source, you can clone the project with [git][git] 
 by running:
 
     $ git clone git://github.com/northscale/moxi
