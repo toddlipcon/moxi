@@ -52,6 +52,7 @@ if [ "x$MOXI_DEVELOPMENT" != xyes ]; then
   # if this project is based on git, not just make-dist tarball,
   # clean submodules recursively on autogen
   for i in $(find . -name .git \
+             | grep -v './.git' \
              | awk 'BEGIN{getline} \
              {print (substr($0, 0, index($0, ".git")-1 ))}');
   do
