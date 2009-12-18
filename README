@@ -60,7 +60,7 @@ Tests:
   # To test that moxi still behaves like memcached
   # and passes all the tests that memcached passes...
   #
-  make test
+  make check
 
   # To test moxi in a simple proxy topology of...
   #  client <-> moxi <-> memcached
@@ -87,6 +87,9 @@ Tests:
   #            |-> moxi <-|
   #
   ./t/moxi.pl fanoutin
+
+  # To test all of the above:
+  ./t/moxi_all.pl
 
   # To test moxi proxy cases...
   #
